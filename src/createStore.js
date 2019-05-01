@@ -1,5 +1,5 @@
 export default function createStore(reducer) {
-  // add your code here
+  
 }
 
 function render() {
