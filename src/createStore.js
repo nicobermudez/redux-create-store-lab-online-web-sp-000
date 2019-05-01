@@ -1,7 +1,7 @@
 export default function createStore(reducer) {
   let state;
   function dispatch(action) {
-    reducer(action)
+    state = reducer(state, action)
     render()
   }
   function getState() {
