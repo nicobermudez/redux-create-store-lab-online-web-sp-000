@@ -1,5 +1,5 @@
 export default function createStore(reducer) {
-  function dispatch() {
+  function dispatch(action) {
     
   }
   function getState() {
